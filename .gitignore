@@ -1,0 +1,52 @@
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### IntelliJ IDEA ### 
+*.iml
+/modules.xml
+/.idea/
+/.idea/*
+!.idea/misc.xml
+!.idea/modules.xml
+!.idea/vcs.xml
+!.idea/workspace.xml
+
+### IDE Settings ### 
+/.idea/libraries/
+/.idea/**/tasks.xml
+/.idea/**/workspace.xml
+/.idea/dictionaries
+/.idea/vcs.xml
+/.idea/**/gradle.xml
+/.idea/**/gradle-*.xml
+/.idea/**/sonarlint/
+/.idea/**/target/
+.idea/**/assetStudio/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
